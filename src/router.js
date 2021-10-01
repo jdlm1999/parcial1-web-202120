@@ -1,7 +1,7 @@
 const { response } = require('express');
 const express = require('express');
-const { getPairsOfPlayers } = require('./controller');
 const router = express.Router();
+const { getPairsOfPlayers } = require('./controller');
 
 router.get('/', async (req, resp = response, next) => {
   try {
